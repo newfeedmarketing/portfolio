@@ -1,0 +1,13 @@
+{
+  "name": "newfeed-marketing-portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio institucional da NewFeed Marketing — site estático com HTML, CSS e JS puros.",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000"
+  },
+  "keywords": ["marketing", "portfolio", "agency", "newfeed"],
+  "author": "NewFeed Marketing",
+  "license": "UNLICENSED"
+}

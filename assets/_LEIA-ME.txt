@@ -1,0 +1,49 @@
+==========================================================
+  PASTA assets/ — INSTRUÇÕES DE SUBSTITUIÇÃO DE LOGOS
+==========================================================
+
+LOGOS NEWFEED (a logo horizontal já está com o arquivo OFICIAL
+extraído do seu PDF — 100% vetorial e fiel ao original):
+
+  ✅ logo-horizontal.svg   ← oficial (extraído do PDF)
+  ✅ logo-white.svg        ← oficial (mesma do PDF, em branco)
+  📎 logo-icon.svg         ← desenho aproximado (NÃO usado no site)
+  📎 favicon.svg           ← desenho aproximado (ícone da aba do navegador)
+
+Se quiser usar SUAS versões originais dos ícones quadrados
+(laranja, navy, branco), basta:
+  1. Salvar as imagens nesta pasta com os nomes:
+       favicon.png            (versão para a aba do navegador, ~32×32)
+       logo-icon-orange.png   (ícone laranja com chevron navy)
+       logo-icon-navy.png     (ícone navy com chevron laranja)
+       logo-icon-white.png    (ícone branco)
+  2. No /index.html, no <head>, troque a referência do favicon:
+       <link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+
+==========================================================
+  PASTA assets/clientes/ — INSTRUÇÕES
+==========================================================
+
+Os 3 logos de clientes (Mercearia Martini, Presidente Padel Clube,
+Sunset) hoje são SVGs estilizados que eu desenhei. Para usar os
+arquivos originais que você me enviou:
+
+  1. Salve as imagens em /assets/clientes/ com os nomes EXATOS:
+       mercearia-martini.png
+       presidente-padel.png
+       sunset.png
+
+  2. No /index.html, na seção "Clientes", troque .svg por .png
+     em 3 linhas (use Ctrl+F para localizar):
+
+       <img src="/assets/clientes/mercearia-martini.png" ... />
+       <img src="/assets/clientes/presidente-padel.png" ... />
+       <img src="/assets/clientes/sunset.png" ... />
+
+  3. (Opcional) Apague os SVGs antigos:
+       mercearia-martini.svg
+       presidente-padel.svg
+       sunset.svg
+
+==========================================================

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Mercearia Martini">
+  <g fill="currentColor">
+    <!-- Carrinho de mercado estilizado com M e T -->
+    <path d="M70 20 L70 70 L78 70 L78 35 L88 70 L94 70 L104 35 L104 70 L112 70 L112 20 L100 20 L91 55 L82 20 Z"/>
+    <path d="M118 20 L142 20 L142 28 L134 28 L134 70 L126 70 L126 28 L118 28 Z"/>
+    <!-- Rodinhas do carrinho -->
+    <circle cx="80" cy="92" r="6"/>
+    <circle cx="130" cy="92" r="6"/>
+    <!-- Barra inferior do carrinho -->
+    <rect x="72" y="78" width="66" height="3"/>
+  </g>
+  <text x="100" y="112" text-anchor="middle" fill="currentColor" font-family="'Poppins',sans-serif" font-weight="800" font-size="11" letter-spacing="2">MERCEARIA MARTINI</text>
+</svg>

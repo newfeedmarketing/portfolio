@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="NewFeed">
+  <rect width="100" height="100" rx="22" fill="#ED6B23"/>
+  <g fill="#0A2540">
+    <path d="M14 38 L48 22 L78 38 L68 46 L52 40 L36 46 L24 46 Z"/>
+    <path d="M86 62 L52 78 L22 62 L32 54 L48 60 L64 54 L76 54 Z"/>
+  </g>
+  <text x="50" y="92" text-anchor="middle" fill="#0A2540" font-family="'Poppins','Inter',sans-serif" font-weight="800" font-size="9" letter-spacing="2.5">MARKETING</text>
+</svg>

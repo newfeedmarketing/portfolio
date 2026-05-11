@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NewFeed Marketing — Agência de marketing digital especializada em gestão de redes sociais, tráfego pago, criação de sites e branding. Resultados reais, estratégia profissional." />
+  <meta name="theme-color" content="#0A2540" />
+
+  <meta property="og:title" content="NewFeed Marketing — Agência de Marketing Digital" />
+  <meta property="og:description" content="Estratégia, performance e identidade. Transformamos sua marca em referência digital." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/logo-horizontal.svg" />
+
+  <title>NewFeed Marketing — Agência de Marketing Digital</title>
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo" aria-label="NewFeed Marketing — Início">
+        <img src="/assets/logo-horizontal.svg" alt="NewFeed Marketing" width="200" height="56" />
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#resultados" class="nav__link">Resultados</a></li>
+          <li><a href="#processo" class="nav__link">Processo</a></li>
+          <li><a href="#clientes" class="nav__link">Clientes</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn--primary nav__cta">Fale com a gente</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__grid"></div>
+      <div class="hero__glow hero__glow--orange"></div>
+      <div class="hero__glow hero__glow--blue"></div>
+    </div>
+
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="eyebrow">Agência de Marketing Digital</span>
+        <h1 class="hero__title">
+          Transformamos sua marca em <span class="text-gradient">referência digital</span>.
+        </h1>
+        <p class="hero__subtitle">
+          Estratégia, performance e identidade unidos para gerar resultado real. Da gestão de redes sociais ao tráfego pago — entregamos crescimento mensurável para o seu negócio.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contato" class="btn btn--primary btn--large">
+            Solicitar diagnóstico gratuito
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#servicos" class="btn btn--ghost btn--large">Conhecer serviços</a>
+        </div>
+
+        <div class="hero__trust">
+          <div class="trust__avatars" aria-hidden="true">
+            <div class="avatar"></div>
+            <div class="avatar"></div>
+            <div class="avatar"></div>
+            <div class="avatar avatar--more">+</div>
+          </div>
+          <p class="trust__text"><strong>+50 marcas</strong> confiam na nossa estratégia</p>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__card hero__card--metric">
+          <span class="metric__label">ROI médio</span>
+          <span class="metric__value">+412%</span>
+          <span class="metric__trend"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg> em 6 meses</span>
+        </div>
+        <div class="hero__card hero__card--bars" aria-hidden="true">
+          <div class="bar" style="--h:55%"></div>
+          <div class="bar" style="--h:72%"></div>
+          <div class="bar" style="--h:48%"></div>
+          <div class="bar" style="--h:88%"></div>
+          <div class="bar" style="--h:65%"></div>
+          <div class="bar" style="--h:95%"></div>
+        </div>
+        <div class="hero__card hero__card--reach">
+          <div class="reach__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div>
+            <span class="reach__label">Alcance orgânico</span>
+            <span class="reach__value">+2.4M</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NÚMEROS ============ -->
+  <section class="numbers" id="sobre" aria-label="Nossos números">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <span class="eyebrow eyebrow--dark">Quem somos</span>
+        <h2 class="section-title">Marketing que entrega <span class="text-orange">resultado</span></h2>
+        <p class="section-lead">Somos uma agência focada em performance, branding e crescimento digital. Atuamos como parceiros estratégicos das marcas que buscam mais do que postagens — buscam resultado.</p>
+      </div>
+
+      <div class="numbers__grid">
+        <div class="number-card" data-aos>
+          <span class="number-card__value" data-counter="50" data-suffix="+">0</span>
+          <span class="number-card__label">Clientes atendidos</span>
+        </div>
+        <div class="number-card" data-aos>
+          <span class="number-card__value" data-counter="412" data-suffix="%">0</span>
+          <span class="number-card__label">ROI médio em campanhas</span>
+        </div>
+        <div class="number-card" data-aos>
+          <span class="number-card__value" data-counter="2.4" data-suffix="M+" data-decimal="1">0</span>
+          <span class="number-card__label">Pessoas alcançadas</span>
+        </div>
+        <div class="number-card" data-aos>
+          <span class="number-card__value" data-counter="98" data-suffix="%">0</span>
+          <span class="number-card__label">Clientes satisfeitos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVIÇOS ============ -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--dark">O que fazemos</span>
+        <h2 class="section-title">Soluções completas para <span class="text-orange">sua marca</span></h2>
+        <p class="section-lead">Estratégia 360º que une criatividade e dados para escalar marcas no ambiente digital.</p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card" data-aos>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </div>
+          <h3 class="service-card__title">Gestão de Redes Sociais</h3>
+          <p class="service-card__desc">Planejamento estratégico, criação de conteúdo, design e gestão completa de Instagram, Facebook, TikTok e LinkedIn — sempre alinhados à identidade da marca.</p>
+          <ul class="service-card__list">
+            <li>Calendário editorial mensal</li>
+            <li>Criação de conteúdo (foto, vídeo, design)</li>
+            <li>Copywriting estratégico</li>
+            <li>Relatórios de performance</li>
+          </ul>
+        </article>
+
+        <article class="service-card" data-aos>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 class="service-card__title">Tráfego Pago</h3>
+          <p class="service-card__desc">Campanhas de alta conversão no Meta Ads, Google Ads e TikTok Ads. Estratégia, criativos, segmentação e otimização constante para maximizar o ROI.</p>
+          <ul class="service-card__list">
+            <li>Meta Ads (Instagram & Facebook)</li>
+            <li>Google Ads (Search, Display, YouTube)</li>
+            <li>Funil de conversão completo</li>
+            <li>Otimização e A/B testing</li>
+          </ul>
+        </article>
+
+        <article class="service-card" data-aos>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="service-card__title">Sites e Landing Pages</h3>
+          <p class="service-card__desc">Sites profissionais, landing pages de conversão e e-commerces otimizados para mobile, SEO e velocidade. Tecnologia moderna e foco em resultado.</p>
+          <ul class="service-card__list">
+            <li>Sites institucionais responsivos</li>
+            <li>Landing pages de alta conversão</li>
+            <li>E-commerce e integrações</li>
+            <li>Otimização SEO técnico</li>
+          </ul>
+        </article>
+
+        <article class="service-card" data-aos>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+          </div>
+          <h3 class="service-card__title">Branding e Design</h3>
+          <p class="service-card__desc">Identidade visual completa, manual da marca, design gráfico e materiais que comunicam com clareza e geram conexão com seu público-alvo.</p>
+          <ul class="service-card__list">
+            <li>Identidade visual e logo</li>
+            <li>Manual de marca (brandbook)</li>
+            <li>Design para impressos e digital</li>
+            <li>Embalagens e materiais</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RESULTADOS ============ -->
+  <section class="results" id="resultados">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Cases & Resultados</span>
+        <h2 class="section-title section-title--light">Números que <span class="text-gradient">comprovam</span></h2>
+        <p class="section-lead section-lead--light">Estratégias reais, métricas reais. Veja alguns dos resultados que entregamos para os nossos clientes.</p>
+      </div>
+
+      <div class="results__grid">
+        <div class="result-card" data-aos>
+          <div class="result-card__tag">Tráfego Pago</div>
+          <div class="result-card__metric">
+            <span class="result-card__value">+580%</span>
+            <span class="result-card__label">aumento em vendas online</span>
+          </div>
+          <p class="result-card__desc">Estruturação de funil completo no Meta Ads para e-commerce de moda — em apenas 4 meses.</p>
+        </div>
+
+        <div class="result-card result-card--featured" data-aos>
+          <div class="result-card__tag">Redes Sociais</div>
+          <div class="result-card__metric">
+            <span class="result-card__value">+312%</span>
+            <span class="result-card__label">de engajamento orgânico</span>
+          </div>
+          <p class="result-card__desc">Reposicionamento de conteúdo e estratégia de Reels para clínica estética — saltou de 8k para 47k seguidores.</p>
+        </div>
+
+        <div class="result-card" data-aos>
+          <div class="result-card__tag">Landing Page</div>
+          <div class="result-card__metric">
+            <span class="result-card__value">23,4%</span>
+            <span class="result-card__label">de taxa de conversão</span>
+          </div>
+          <p class="result-card__desc">Landing page para captação de leads B2B com integração CRM — 4x acima da média de mercado.</p>
+        </div>
+
+        <div class="result-card" data-aos>
+          <div class="result-card__tag">Branding</div>
+          <div class="result-card__metric">
+            <span class="result-card__value">+87%</span>
+            <span class="result-card__label">no reconhecimento de marca</span>
+          </div>
+          <p class="result-card__desc">Rebranding completo para rede de restaurantes — pesquisa de awareness antes/depois.</p>
+        </div>
+
+        <div class="result-card" data-aos>
+          <div class="result-card__tag">Google Ads</div>
+          <div class="result-card__metric">
+            <span class="result-card__value">R$ 0,34</span>
+            <span class="result-card__label">custo por lead qualificado</span>
+          </div>
+          <p class="result-card__desc">Campanha de Search para serviços jurídicos — redução de 78% no CPL e aumento na qualidade.</p>
+        </div>
+
+        <div class="result-card" data-aos>
+          <div class="result-card__tag">Estratégia 360º</div>
+          <div class="result-card__metric">
+            <span class="result-card__value">+412%</span>
+            <span class="result-card__label">de ROI consolidado</span>
+          </div>
+          <p class="result-card__desc">Plano integrado de tráfego, social e branding para marca de saúde — período de 6 meses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESSO ============ -->
+  <section class="process" id="processo">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--dark">Como trabalhamos</span>
+        <h2 class="section-title">Um método <span class="text-orange">claro</span> e estruturado</h2>
+        <p class="section-lead">Cada projeto passa por um processo de quatro etapas que garante alinhamento, execução de qualidade e mensuração rigorosa.</p>
+      </div>
+
+      <div class="process__grid">
+        <div class="process-step" data-aos>
+          <span class="process-step__num">01</span>
+          <h3 class="process-step__title">Diagnóstico</h3>
+          <p>Imersão no negócio, análise de concorrentes, público-alvo e definição de KPIs estratégicos.</p>
+        </div>
+        <div class="process-step" data-aos>
+          <span class="process-step__num">02</span>
+          <h3 class="process-step__title">Estratégia</h3>
+          <p>Planejamento detalhado de canais, conteúdo, campanhas e identidade — alinhado aos objetivos.</p>
+        </div>
+        <div class="process-step" data-aos>
+          <span class="process-step__num">03</span>
+          <h3 class="process-step__title">Execução</h3>
+          <p>Produção de conteúdo, lançamento de campanhas, desenvolvimento e gestão diária com excelência.</p>
+        </div>
+        <div class="process-step" data-aos>
+          <span class="process-step__num">04</span>
+          <h3 class="process-step__title">Otimização</h3>
+          <p>Análise contínua de dados, relatórios mensais e ajustes táticos para maximizar resultados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLIENTES ============ -->
+  <section class="clients" id="clientes">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <span class="eyebrow eyebrow--dark">Clientes</span>
+        <h2 class="section-title">Marcas que <span class="text-orange">confiam</span> na NewFeed</h2>
+        <p class="section-lead">Atendemos empresas de diversos segmentos com a mesma dedicação e foco em resultado.</p>
+      </div>
+
+      <div class="clients__grid" id="clientsGrid">
+        <!-- 24 logos extraídos da Proposta Comercial 2025 (PDF) -->
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/cort-genetica.png" alt="Cort Genética" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/tecnoforte.png" alt="Tecnoforte" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/feirao-lavo.png" alt="Feirão Lavo" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/west-beer.png" alt="West Beer" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/move-trainer.png" alt="Move Trainer" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/pagode-playlist.png" alt="Pagode Playlist" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/panadero-padaria.png" alt="Panadero Padaria" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/sou-empoderada-sm.png" alt="Sou Empoderada SM" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/ligi-nallem.png" alt="Ligi Nallem" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/banca-uruguaiana.png" alt="Banca Uruguaiana" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/el-punto-turismo.png" alt="El Punto Turismo" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/psi-miria-carvalho.png" alt="Psi. Miria Carvalho" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/victor-piaz.png" alt="Victor Piaz" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/alimed-pharma.png" alt="Alimed Pharma" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/teka-moda-intima.png" alt="Teka Moda Íntima" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/julia-calcados.png" alt="Júlia Calçados" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/emporio-do-denis.png" alt="Empório do Denis" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/centro-de-pinturas.png" alt="Centro de Pinturas Uruguaiana" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/anderson-figueiredo.png" alt="Anderson Figueiredo" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/hora-extra-veiculos.png" alt="Hora Extra Veículos" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/rural-grife.png" alt="Rural Grife" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/miriene-consorcios.png" alt="Miriene Consórcios" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/rodrigo-bastos.png" alt="Rodrigo Bastos" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/ceccon-pecas.png" alt="Ceccon Peças e Acessórios" loading="lazy" />
+        </div>
+
+        <!-- 3 clientes novos (você precisa salvar como PNG nesta pasta com estes nomes) -->
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/mercearia-martini.png" alt="Mercearia Martini" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/presidente-padel.png" alt="Presidente Padel Clube" loading="lazy" />
+        </div>
+        <div class="client-logo client-logo--svg" data-aos>
+          <img src="/assets/clientes/sunset.png" alt="Sunset — esporte, alegria, gastronomia" loading="lazy" />
+        </div>
+      </div>
+
+      <p class="clients__hint">+27 marcas com resultados reais. <a href="#contato">Quer ser a próxima? →</a></p>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--dark">Depoimentos</span>
+        <h2 class="section-title">O que nossos clientes <span class="text-orange">dizem</span></h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <figure class="testimonial" data-aos>
+          <div class="testimonial__stars" aria-label="5 de 5 estrelas">★★★★★</div>
+          <blockquote>
+            <p>A NewFeed entendeu nosso negócio como ninguém. Em poucos meses, dobramos nosso faturamento online com uma estratégia clara e bem executada.</p>
+          </blockquote>
+          <figcaption>
+            <strong>Cliente NewFeed</strong>
+            <span>Segmento — substituir</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial" data-aos>
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote>
+            <p>Profissionais que vestem a camisa. As reuniões mensais com relatórios e insights mudaram nossa forma de enxergar o digital.</p>
+          </blockquote>
+          <figcaption>
+            <strong>Cliente NewFeed</strong>
+            <span>Segmento — substituir</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial" data-aos>
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote>
+            <p>Do branding ao tráfego pago, entregaram tudo com qualidade e prazo. Hoje somos referência no nosso segmento graças ao trabalho deles.</p>
+          </blockquote>
+          <figcaption>
+            <strong>Cliente NewFeed</strong>
+            <span>Segmento — substituir</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band">
+    <div class="container cta-band__inner">
+      <div>
+        <h2 class="cta-band__title">Pronto para fazer sua marca <span class="text-gradient">crescer</span>?</h2>
+        <p class="cta-band__text">Solicite um diagnóstico gratuito e descubra como podemos acelerar seus resultados.</p>
+      </div>
+      <a href="#contato" class="btn btn--primary btn--large">
+        Quero meu diagnóstico
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="contact" id="contato">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <span class="eyebrow eyebrow--dark">Contato</span>
+        <h2 class="section-title">Vamos construir <span class="text-orange">algo grande</span> juntos</h2>
+        <p class="section-lead">Conte-nos sobre o seu projeto. Respondemos em até 1 dia útil com um plano personalizado para o seu negócio.</p>
+
+        <ul class="contact__list">
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <div>
+              <span class="contact__label">E-mail</span>
+              <a href="mailto:newfeedmarketing24@gmail.com">newfeedmarketing24@gmail.com</a>
+            </div>
+          </li>
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <span class="contact__label">WhatsApp</span>
+              <a href="https://wa.me/" target="_blank" rel="noopener">Adicionar número de telefone</a>
+            </div>
+          </li>
+          <li>
+            <span class="contact__icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </span>
+            <div>
+              <span class="contact__label">Instagram</span>
+              <a href="https://instagram.com/" target="_blank" rel="noopener">@newfeedmarketing</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact__form" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Nome completo *</label>
+          <input type="text" id="name" name="name" required autocomplete="name" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="company">Empresa</label>
+          <input type="text" id="company" name="company" autocomplete="organization" />
+        </div>
+        <div class="form-group">
+          <label for="service">Serviço de interesse</label>
+          <select id="service" name="service">
+            <option value="">Selecione…</option>
+            <option>Gestão de Redes Sociais</option>
+            <option>Tráfego Pago</option>
+            <option>Sites e Landing Pages</option>
+            <option>Branding e Design</option>
+            <option>Estratégia 360º</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Conte sobre seu projeto *</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block btn--large">
+          Enviar mensagem
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="/assets/logo-white.svg" alt="NewFeed Marketing" width="200" height="56" />
+        <p class="footer__tagline">Estratégia, performance e identidade. Marketing que entrega resultado real.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Redes Sociais</a></li>
+          <li><a href="#servicos">Tráfego Pago</a></li>
+          <li><a href="#servicos">Sites e Landing Pages</a></li>
+          <li><a href="#servicos">Branding e Design</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Agência</h4>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#processo">Processo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="mailto:newfeedmarketing24@gmail.com">newfeedmarketing24@gmail.com</a></li>
+          <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="year"></span> NewFeed Marketing. Todos os direitos reservados.</p>
+        <p>Feito com estratégia + criatividade.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/" target="_blank" rel="noopener" class="floating-whats" aria-label="Chamar no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0 0 20.464 3.488"/></svg>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
