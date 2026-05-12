@@ -763,11 +763,11 @@ body {
 }
 
 /* ---------- 10. Clients ---------- */
-.clients { padding: 120px 0; background: var(--gray-50); }
+.clients { padding: 120px 0; background: #FFFFFF; }
 .clients__grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 28px 20px;
+  gap: 36px 22px;
 }
 .client-logo {
   display: flex;
@@ -778,9 +778,10 @@ body {
   background: transparent;
   border: 0;
   padding: 0;
+  box-shadow: none;
   transition: transform 0.35s var(--ease);
 }
-.client-logo:hover { transform: translateY(-4px); }
+.client-logo:hover { transform: translateY(-3px); }
 
 .client-logo__circle {
   width: 100%;
@@ -789,10 +790,9 @@ body {
   border-radius: 50%;
   overflow: hidden;
   background: transparent;
-  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
-}
-.client-logo:hover .client-logo__circle {
-  box-shadow: 0 12px 30px -8px rgba(10, 37, 64, 0.25);
+  border: 0;
+  box-shadow: none;
+  transition: transform 0.35s var(--ease);
 }
 .client-logo__circle img {
   width: 100%;
@@ -802,10 +802,10 @@ body {
   display: block;
   transition: transform 0.45s var(--ease);
 }
-.client-logo:hover .client-logo__circle img { transform: scale(1.05); }
+.client-logo:hover .client-logo__circle img { transform: scale(1.04); }
 
 .client-logo__handle {
-  margin-top: 12px;
+  margin-top: 14px;
   font-family: var(--font-body);
   font-size: 12.5px;
   font-weight: 500;
